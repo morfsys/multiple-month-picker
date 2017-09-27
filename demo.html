@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="src/multiple-month.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="src/multiple-month.js"></script>
+<script src="src/moment.js"></script>
+
+
+<body>
+
+<div ng-app="myApp">
+ 
+<p>Click to open multiple month picker:</p>
+<p>Name : <input type="text" multiple-month-picker></p>
+
+</div>
+<script>
+    var app=angular.module('myApp',['mmp-morfsys']);
+</script>
+
+</body>
+</html>
